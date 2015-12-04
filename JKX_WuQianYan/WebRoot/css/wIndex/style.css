@@ -1,0 +1,54 @@
+.lof-cordion {
+	position:relative;
+
+	clear:both;
+	overflow:hidden;
+}
+.lof-cordion-wapper {
+	clear:both;
+	width:820px;height:300px;
+}
+.lof-cordion-wapper ul {
+	width:100%;	
+	position:relative;
+}
+.lof-cordion-wapper ul li{
+	list-style-type:none !important; 
+	float:left !important;
+	display:block;
+	height:300px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	cursor:hand;
+	cursor:pointer;
+	background:url(../../img/wIndex/loading.gif) no-repeat 50% 50%
+}
+
+.lof-shadow{
+	background:url(../../img/wIndex/shadow-left.png) repeat-y;
+	z-index:0;
+	width:50px; 
+	height:320px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.lof-bottom{
+	background:url(../../img/wIndex/shadow-bottom.jpg) no-repeat;	
+	height:115px;
+	top:-64px;
+	position:relative
+}
+.lof-description {
+	height:90px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.lof-description {
+	background:url(../../img/wIndex/bg-desc.png);
+	padding:0 20px;
+	color:#FFF
+}

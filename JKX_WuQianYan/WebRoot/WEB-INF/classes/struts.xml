@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.custom.i18n.resources" value="temple"></constant>
+    
+ 
+   <package name="1" extends="struts-default">
+
+        <default-action-ref name="index" />
+        
+        <action name="index">
+            <result>error.jsp</result>
+        </action>
+        
+    </package>
+   
+    <package name="2" extends="struts-default">
+       
+        <default-action-ref name="index"/>
+        <action name="ImgUpload" class="com.jkx.web.ImgUpLoad.ImgUploadAction" method="imgUpload">
+		</action>
+
+    </package>
+   
+    
+     <package name="jsonaction"  extends="json-default">  
+     
+        <action name="*_*" class="com.jkx.web.ImplAction.Web_{1}_Action" method="{2}">
+             <result name="success" type="json">
+             <param name="json">json</param>
+             
+             <!-- 跨域访问的回调函数 
+             <param name="callbackParameter">callback</param> 
+             -->
+             	
+              	
+            
+             </result>
+       </action>  
+            
+                              
+    </package>  
+    
+</struts>

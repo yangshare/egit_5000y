@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+/**字体*/
+font-family:Arial, Helvetica, sans-serif;
+
+/**字体大小*/
+font-size:12px;
+
+/**宽度*/
+width:980px;
+
+/**该属性是复合属性*/
+border:1px solid #9999FF;
+
+/**高度*/
+height:auto;
+
+/**检索或设置对象四边的外延边距。auto值被设置为相对边的值*/
+
+margin:0px auto;
+}
+
+#top{
+height:1px;
+}
+
+/**顶部**/
+#top_banner{
+height:150px;
+background-image:url(images/banner.jpg)
+}
+
+a:link {font-size:12px; text-decoration:none; color:#000000;}
+a:visited {font-size:12px; text-decoration:none; color:#000000;}
+a:hover {font-size:12px; text-decoration:underline; color:#FF0000;}
+
+/**顶部导航*/
+.top_menu{
+
+/**宽度*/
+width:500px;
+
+/**高度*/
+height:50px;
+
+/**该属性的值指出了不允许有浮动对象的边 both:不允许有浮动对象  none允许两边都可以浮动对象
+left：不允许左边有浮动对象， right：不允许右边有浮动对象*/
+clear:both;
+
+/**检索或设置对象顶边的外延边距**/
+margin-top:40px;
+
+/**检索或设置对象左边的外延边距*/
+margin-left:300px;
+}
+
+
+/**:link设置a对象在未被访问前的样式表属性。*/
+a.nav:link,a.nav:visited{
+
+/**设置或检索对象是否及如何显示  block用该值为对象之后添加新行 */
+display:block;
+
+/**该属性的值指出了对象是否及如何浮动
+none : 　对象不浮动
+left : 　对象浮在左边
+right : 　对象浮在右边 
+*/
+float:left;
+
+/**检索或设置对象四边的补丁边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四条边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。*/
+padding:4px 11px 0 11px;
+
+/**检索或设置对象四边的外延边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+*/
+
+margin:0px;
+
+width:auto;
+
+height:18px;
+
+text-align:center;
+
+/**字体最底端与字体内部顶端之间的距离*/
+line-height:20px;
+
+/*设置或检索对象中的文本字体的粗细  bold : 粗体  normal : 正常的字体*/
+font-weight:bold;
+
+/**设置对象中的文本的装饰。
+none : 　无装饰
+blink : 　闪烁
+underline : 　下划线
+line-through : 　贯穿线
+overline : 　上划线 */
+text-decoration:none;
+color:#000000;
+}
+.indexBusS1 {
+background: #DBE5F1;
+height: 45px;
+padding: 10px;
+border-radius: 2px;
+width: 960px;
+text-align:center;
+margin-bottom: 20px;
+}
+
+.indexBusS2 {
+background: #DBE5F1;
+height: 45px;
+padding: 10px;
+border-radius: 2px;
+width: 960px;
+text-align:center;
+margin-bottom: 20px;
+}
+
+.indexBusS3 {
+background: #DBE5F1;
+height: 45px;
+padding: 10px;
+border-radius: 2px;
+width: 960px;
+text-align:center;
+margin-bottom: 20px;
+
+}
+.ibInpur{ width:193px;background:#fff;border:1px solid #7ea4ce;  border-left:none; padding:0 10px; height:40px; position:relative; z-index:2; font-size:14px; line-height:40px\9}
+.ibInpur2{ width:193px; background:#fff;border:1px solid #7ea4ce;  border-right:none; padding:0 10px; height:40px; position:relative; z-index:2;font-size:14px;line-height:40px\9}
+.ibInpur3{ width:434px; background:#fff;border:1px solid #7ea4ce; border-right:none; border-left:none; padding:0 10px; height:40px; position:relative; z-index:2;font-size:14px;line-height:40px\9}
+.ibText{ width:26px; _width:26px;  color:#0b4c94; font-size:14px; line-height:40px; text-align:center; display:inline-block;}
+.ibbtn{ border:none; display:inline-block; width:87px; height:42px; cursor:pointer; background-color:#CCCCCC;}
+.ibbtn:hover{ background-color:#999999}
+.indexBusB {
+text-align: center;
+}
+#main{
+}
+
+
+#center_banner1{
+height:380px;
+background-image:url(../images/pic2.jpg);
+
+/**背景图片不可重复**/
+background-repeat:no-repeat;
+
+background-position:bottom;
+}
+
+#center_banner2{
+height:380px;
+background-image:url(../images/pic.jpg);
+
+/**背景图片不可重复**/
+background-repeat:no-repeat;
+
+background-position:bottom;
+}
+
+#center_banner3{
+height:380px;
+background-image:url(../images/pic1.jpg);
+
+/**背景图片不可重复**/
+background-repeat:no-repeat;
+
+background-position:bottom;
+}
+
+#center_banner4{
+height:380px;
+background-image:url(../images/pic6.jpg) ;
+
+/**背景图片不可重复**/
+background-repeat:no-repeat;
+
+background-position:bottom;
+}
+
+
+#left{
+height:auto;
+width:25%;
+float:left;
+
+/**检索或设置对象四边的外延边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+*/
+margin:10px 10px;
+}
+
+#left_box{
+height:125px;
+width:99%;
+border:1px #CCCCCC solid;
+background:url(../images/box.jpg) no-repeat top;
+
+/**字体离顶边距的距离*/
+padding-top:10px;
+}
+
+
+#left_box_border{
+width:100%;
+height:auto;
+background:url(images/box.jpg) no-repeat top;
+
+/**每一个模块离上一个模块的间距*/
+margin-top:15px;
+}
+
+
+#login{
+padding:10px;
+height:75px;
+}
+
+.input{
+width:120px;
+height:12px;
+font-size:10px;
+}
+
+.clear{
+/*
+该属性的值指出了不允许有浮动对象的边
+none : 　允许两边都可以有浮动对象
+both : 　不允许有浮动对象
+left : 　不允许左边有浮动对象
+right : 　不允许右边有浮动对象 
+*/
+clear:both;
+
+/**检索或设置当对象的内容超过其指定高度及宽度时如何管理内容
+auto : 　此为body对象和textarea的默认值。在需要时剪切内容并添加滚动条 
+hidden : 　不显示超过对象尺寸的内容
+scroll : 　总是显示滚动条 
+visible : 　不剪切内容也不添加滚动条
+*/
+overflow:hidden;
+
+height:4px;
+}
+
+.submit{
+
+/**该属性的值指出了对象是否及如何浮动
+none : 　对象不浮动
+left : 　对象浮在左边
+right : 　对象浮在右边 
+*/
+float:right;
+
+/**检索或设置对象右边的外延边距*/
+margin-right:30px;
+
+margin-top:5px;
+}
+
+.button{
+
+float:right;
+
+margin-right:25px;
+
+margin-top:5px;
+}
+
+.pic{
+float:left;
+padding:10px;
+}
+
+.title{
+font-size:13px;
+font-weight:bold;
+color:#7B0E10;
+}
+.title a{
+
+/**去除下划线*/
+text-decoration:none;
+
+/**字体加粗*/
+font-weight:bold;
+
+/**字体颜色*/
+color:#7B0E10;
+}
+
+.content{
+
+/**
+margin检索或设置对象四边的外延边距。
+
+padding检索或设置对象四边的补丁边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四条边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下*/
+padding:6px;
+
+/**字体大小**/
+font-size:10px;
+
+/**设置或检索对象中文本的对齐方式
+left : 　左对齐
+right : 　右对齐
+center : 　居中
+justify : 　两端对齐
+*/
+text-align:justify;
+}
+
+
+#right{
+width:70%;
+height:500px;
+margin:10px 10px;
+}
+.right_top{
+margin:0px 10px 20px 0px;
+clear:both;
+}
+
+.right_content{
+
+/***支持全英文字母换行***/
+word-wrap:break-word;
+}
+.title_small{
+font-size:12px;
+font-weight:bold;
+
+/**检索或设置对象底边的补丁边距。**/
+padding-bottom:10px;
+}
+.right_main{
+margin-top:80px;
+width:98%;
+height:435px;
+}
+.right_main_left{
+width:40%;
+height:350px;
+float:left;
+border-right:3px #B3B5B8 solid;
+}
+
+a.nav_services:link,a.nav_services:visited{
+
+/**设置或检索对象是否及如何显示。用该值为对象之后添加新行 */
+display:inline;
+
+/**
+检索或设置对象四边的补丁边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四条边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+*/
+padding:10px 0 0 6px;
+
+/**检索或设置对象四边的外延边距*/
+margin:8px;
+
+/**auto : 　无特殊定位，根据HTML定位规则载文档流中分配 */
+width:auto;
+
+height:auto;
+
+text-align:left;
+
+/**检索或设置对象的行高。即字体最底端与字体内部顶端之间的距离。*/
+line-height:20px;
+
+/**除去下划线*/
+text-decoration:none;
+
+/** repeat : 　背景图像在纵向和横向上平铺
+	no-repeat : 　背景图像不平铺
+	repeat-x : 　背景图像在横向上平铺
+	repeat-y : 　背景图像在纵向平铺 
+background:url(../images/bullet.png) no-repeat left;
+*/
+
+/**字体颜色*/
+color:#000;
+}
+
+.right_main_right{
+float:left;
+margin:1px 5px 10px 1px;
+padding-left:12px;
+border-left:1px  #CCCCCC solid;
+}
+.pic_news{
+
+/**该属性的值指出了对象是否及如何浮动  
+none : 　对象不浮动
+left : 　对象浮在左边
+right : 　对象浮在右边 */
+float:left;
+
+/**
+检索或设置对象四边的补丁边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四条边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+*/
+padding:0px 10px 10px 10px;
+}
+
+.news_box{
+
+padding:10px 0 0 0;
+
+/**none : 　允许两边都可以有浮动对象
+both : 　不允许有浮动对象
+left : 　不允许左边有浮动对象
+right : 　不允许右边有浮动对象 
+*/
+clear:both;
+}
+
+.news_submenu{
+clear:both;
+float:left;
+padding-top:5px;
+margin-left:10px;
+border-bottom:1px #CCCCCC solid;
+}
+.news_link{
+float:left;
+padding-right:30px;
+}
+
+.news_link a{
+text-decoration:none;
+color:#999999;
+}
+
+.news_link a:hover{
+text-decoration:none;
+color:#000;
+}
+
+image.pic_border{
+float:left;
+margin-right:15px;
+border:1px solid #CCCCCC;
+}
+
+#footer{
+
+/**检索或设置对象四边的外延边距。
+如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+*/
+margin:26px 0px 0px 0px;
+
+padding-top:30px;
+
+/**高度*/
+height:60px;
+
+/**背景色**/
+background-color:#99CC66;
+
+/**文本居中显示*/
+text-align:center;
+}
+

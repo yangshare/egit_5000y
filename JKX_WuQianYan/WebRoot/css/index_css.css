@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+body{
+	background-color: white;
+	
+	zoom:1;
+}
+.shadow{
+	-webkit-box-shadow: #666 0px 0px 20px;
+	-moz-box-shadow: #666 0px 0px 20px;
+	box-shadow: #666 0px 0px 20px;
+}
+.Yindex_area{
+	margin:auto 2px;
+	background-color:black;
+	height:45px;
+	-webkit-box-shadow: #666 0px 0px 20px;
+	-moz-box-shadow: #666 0px 0px 20px;
+	box-shadow: #666 0px 0px 20px;
+}
+.Yindex{
+	/*border:2px black solid;*/
+	width:1010px;
+	margin:auto;
+}
+.Yindex_header{
+	width:1010px;
+	float:left;
+	/*border:2px red solid;*/
+	
+	clear:both;
+}
+	.Yindex_logo{
+		/*border:2px greed solid;*/
+		float:left;
+		margin:5px;
+		margin-left:65px;
+	} 
+		.Yindex_logo img{
+			width:100px;
+			height:130px;
+		}
+	.Yindex_menu{
+		margin:45px auto ;
+		margin-left:55px;
+		float:left;
+		padding-bottom:25px;  
+		border-bottom:2px black dashed ;
+		
+		/*border:2px yellow solid;*/
+	}
+	.Yindex_menu a{
+		
+		text-decoration: none;
+		color:#333;
+		font-family: "Microsoft Yahei";
+		font-size: 16px;
+		
+	}
+	.Yindex_menu a:hover{
+		/*text-decoration: underline;*/
+		font-family: "Microsoft Yahei";
+		font-size: 24px;
+		
+	}
+	.Yindex_menu li{
+		display: list-item;
+		float: left;
+		font-size: 17px;
+		margin-left: 17px;
+		width: 100px;
+		text-align: center;
+	}
+	
+.Ymain{
+	padding-top:30px;
+	margin:50px auto ;
+	width:1010px;
+	/*height:1000px;*/
+	/*border:2px black solid;*/
+	
+}
+
+.Yindex_footer{
+	padding-top:20px;
+	margin:10px auto;
+	/*border:1px red solid;*/
+	border-top:2px black dashed ;
+	width:1010px;
+}
+	.Yindex_footer_li{
+		float:left;
+		margin:10px;
+		margin-left:30px;
+	}
+	.Yindex_footer_WeChat{
+		
+		width:160px;
+		/*border:1px green solid;*/
+		margin:auto;
+	}
+		.Yindex_footer_WeChat img{
+			width:160px;
+			height:160px;
+		}
+	.Yindex_footer_contacts{
+		margin-top:10px;
+		margin-left:150px;
+		width:318px;
+	}
+		.Yindex_footer_contacts li{
+			display: list-item;
+			text-align: -webkit-match-parent;
+			background: url(../img/footbg.png) no-repeat;
+			height: 25px;
+			padding-left: 20px;
+			font-size: 14px;
+			color: #bbb;
+			overflow: hidden;
+		}	
+	.Yindex_footer_logo{
+		float:right;
+		width:100px;
+		/*border:1px yellow solid;*/
+	}
+		.Yindex_footer_logo img{
+			width:100px;
+			height:130px;
+		}
+.Yfooter{
+	height:65px;
+	color:white;
+	margin-bottom:2px;
+}

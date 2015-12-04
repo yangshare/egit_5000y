@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+/*wContacts.jsp的css*/
+body{
+	background-color: white;
+}
+
+.YcontactsBody{
+	
+	/*border:1px red solid;*/
+	
+	clear:both;
+	width:1010px;
+	margin:auto;
+}
+.Yindex{
+	
+	float:left;
+	width:1008px;
+	margin:auto;
+	
+}
+	.Yleft{	
+	float:left;			
+		margin-left:30px;
+		/*position: absolute;*/
+		
+		
+		width: 10%;
+		/*border: 1px yellow solid;*/
+		/*border-right-color: white;*/
+		z-index: 2;
+		
+	}
+		.Yleft li{
+		width:100%;	
+				
+		padding:10px;
+		background-color: #F6F6F6;
+		/*border: 1px black solid;*/
+		
+		
+		}
+		
+		
+	.Yright{
+	
+		/*position: absolute;*/
+		margin:auto  auto auto 152px;
+		padding:10px;
+		padding-right: 50px;
+		width: 75%;
+		border: 1px gray dashed;
+		z-index: 1;
+	/*
+		contact.jsp的css
+	*/	
+	}
+		.Ycontact_ul li{
+			display: list-item;
+			text-align: -webkit-match-parent;
+			background: url(../img/footbg.png) no-repeat;
+			height: 25px;
+			padding-left: 20px;
+			font-size: 14px;
+			/*color: #bbb;*/
+			overflow: hidden;
+		}
+	.Ycontacts{
+		margin:20px;
+		
+	}
+	.Yipad{
+		margin:20px;
+		/*border:1px red solid;*/
+		background-image:url("../img/ipad.jpg");
+		width:730px;
+		height:465px;
+	}
+		.Yipad iframe{
+			margin:50px auto auto 75px;
+		}
+		
+	
+	
+	
+	
+	
+	
+	
